@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D28785DEA11783B8B7448EEB /* Pods_AutoParking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA036DC9031860F9A9E4C38C /* Pods_AutoParking.framework */; };
+		D7538D7C2480C63500C64B9A /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7538D7B2480C63500C64B9A /* DBHelper.swift */; };
+		D7538D7E2480CEB300C64B9A /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7538D7D2480CEB300C64B9A /* Util.swift */; };
+		D7538D822480E2A600C64B9A /* Placa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7538D812480E2A600C64B9A /* Placa.swift */; };
+		D7538D842480EC6500C64B9A /* RegistrarPlaca.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7538D832480EC6500C64B9A /* RegistrarPlaca.swift */; };
+		D78861BA24809C510020C567 /* RoundUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78861B924809C510020C567 /* RoundUIView.swift */; };
+		D78861BC2480A5780020C567 /* ControlRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78861BB2480A5780020C567 /* ControlRegistro.swift */; };
+		D78861C02480A6620020C567 /* CustomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78861BF2480A6620020C567 /* CustomItem.swift */; };
+		D78EA7652482D58C00197B08 /* Informes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78EA7642482D58C00197B08 /* Informes.swift */; };
+		D78EA7672483024100197B08 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78EA7662483024100197B08 /* Ticket.swift */; };
+		D7B5EC7C2480836F00F846A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B5EC7B2480836F00F846A0 /* AppDelegate.swift */; };
+		D7B5EC832480836F00F846A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B5EC812480836F00F846A0 /* Main.storyboard */; };
+		D7B5EC852480837100F846A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B5EC842480837100F846A0 /* Assets.xcassets */; };
+		D7B5EC882480837100F846A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B5EC862480837100F846A0 /* LaunchScreen.storyboard */; };
+		D7DDAC13248202C40061FFA1 /* Registros.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDAC12248202C40061FFA1 /* Registros.swift */; };
+		D7E1911E2480C18B00416A77 /* TipoVehiculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E1911D2480C18B00416A77 /* TipoVehiculo.swift */; };
+		D7E191202480C2A000416A77 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E1911F2480C2A000416A77 /* CustomCell.swift */; };
+		D7E191222480C3D900416A77 /* Tipo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E191212480C3D900416A77 /* Tipo.swift */; };
+		D7E701BB2481761A007963A2 /* SearchPlaca.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E701BA2481761A007963A2 /* SearchPlaca.swift */; };
+		D7E701BD2481DEFC007963A2 /* PeriodoFacturacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E701BC2481DEFC007963A2 /* PeriodoFacturacion.swift */; };
+		D7E701BF2481DF6D007963A2 /* Registro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E701BE2481DF6D007963A2 /* Registro.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33F1BD9044E0E8D2FED8B34A /* Pods-AutoParking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoParking.debug.xcconfig"; path = "Target Support Files/Pods-AutoParking/Pods-AutoParking.debug.xcconfig"; sourceTree = "<group>"; };
+		980426E7A93EE35C98DC5D5B /* Pods-AutoParking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoParking.release.xcconfig"; path = "Target Support Files/Pods-AutoParking/Pods-AutoParking.release.xcconfig"; sourceTree = "<group>"; };
+		AA036DC9031860F9A9E4C38C /* Pods_AutoParking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoParking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7538D7B2480C63500C64B9A /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		D7538D7D2480CEB300C64B9A /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		D7538D812480E2A600C64B9A /* Placa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placa.swift; sourceTree = "<group>"; };
+		D7538D832480EC6500C64B9A /* RegistrarPlaca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarPlaca.swift; sourceTree = "<group>"; };
+		D78861B924809C510020C567 /* RoundUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundUIView.swift; sourceTree = "<group>"; };
+		D78861BB2480A5780020C567 /* ControlRegistro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlRegistro.swift; sourceTree = "<group>"; };
+		D78861BF2480A6620020C567 /* CustomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomItem.swift; sourceTree = "<group>"; };
+		D78EA7642482D58C00197B08 /* Informes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Informes.swift; sourceTree = "<group>"; };
+		D78EA7662483024100197B08 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		D7B5EC782480836F00F846A0 /* AutoParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B5EC7B2480836F00F846A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7B5EC822480836F00F846A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7B5EC842480837100F846A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7B5EC872480837100F846A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7B5EC892480837100F846A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DDAC12248202C40061FFA1 /* Registros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registros.swift; sourceTree = "<group>"; };
+		D7E1911D2480C18B00416A77 /* TipoVehiculo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipoVehiculo.swift; sourceTree = "<group>"; };
+		D7E1911F2480C2A000416A77 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		D7E191212480C3D900416A77 /* Tipo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tipo.swift; sourceTree = "<group>"; };
+		D7E701BA2481761A007963A2 /* SearchPlaca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlaca.swift; sourceTree = "<group>"; };
+		D7E701BC2481DEFC007963A2 /* PeriodoFacturacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodoFacturacion.swift; sourceTree = "<group>"; };
+		D7E701BE2481DF6D007963A2 /* Registro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registro.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7B5EC752480836F00F846A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28785DEA11783B8B7448EEB /* Pods_AutoParking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E85DD1FE61E9A3C751F3F22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA036DC9031860F9A9E4C38C /* Pods_AutoParking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22E4F4C2F1EAA425C1DFADD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33F1BD9044E0E8D2FED8B34A /* Pods-AutoParking.debug.xcconfig */,
+				980426E7A93EE35C98DC5D5B /* Pods-AutoParking.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D78861B624809C220020C567 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D78861B724809C290020C567 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D78861BB2480A5780020C567 /* ControlRegistro.swift */,
+				D7E1911D2480C18B00416A77 /* TipoVehiculo.swift */,
+				D7538D832480EC6500C64B9A /* RegistrarPlaca.swift */,
+				D7E701BC2481DEFC007963A2 /* PeriodoFacturacion.swift */,
+				D7E701BE2481DF6D007963A2 /* Registro.swift */,
+				D78EA7642482D58C00197B08 /* Informes.swift */,
+				D78EA7662483024100197B08 /* Ticket.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D78861B824809C390020C567 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D7E1911F2480C2A000416A77 /* CustomCell.swift */,
+				D78861B924809C510020C567 /* RoundUIView.swift */,
+				D78861BF2480A6620020C567 /* CustomItem.swift */,
+				D7538D7D2480CEB300C64B9A /* Util.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D7B5EC6F2480836F00F846A0 = {
+			isa = PBXGroup;
+			children = (
+				D7B5EC7A2480836F00F846A0 /* AutoParking */,
+				D7B5EC792480836F00F846A0 /* Products */,
+				22E4F4C2F1EAA425C1DFADD4 /* Pods */,
+				1E85DD1FE61E9A3C751F3F22 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7B5EC792480836F00F846A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7B5EC782480836F00F846A0 /* AutoParking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7B5EC7A2480836F00F846A0 /* AutoParking */ = {
+			isa = PBXGroup;
+			children = (
+				D78861B824809C390020C567 /* Util */,
+				D78861B724809C290020C567 /* Controller */,
+				D78861B624809C220020C567 /* View */,
+				D7E1911B2480C0AB00416A77 /* DBHelper */,
+				D7EED47624809BFC00A82281 /* Model */,
+				D7B5EC7B2480836F00F846A0 /* AppDelegate.swift */,
+				D7B5EC812480836F00F846A0 /* Main.storyboard */,
+				D7B5EC842480837100F846A0 /* Assets.xcassets */,
+				D7B5EC862480837100F846A0 /* LaunchScreen.storyboard */,
+				D7B5EC892480837100F846A0 /* Info.plist */,
+			);
+			path = AutoParking;
+			sourceTree = "<group>";
+		};
+		D7E1911B2480C0AB00416A77 /* DBHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D7538D7B2480C63500C64B9A /* DBHelper.swift */,
+			);
+			path = DBHelper;
+			sourceTree = "<group>";
+		};
+		D7EED47624809BFC00A82281 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7E191212480C3D900416A77 /* Tipo.swift */,
+				D7538D812480E2A600C64B9A /* Placa.swift */,
+				D7E701BA2481761A007963A2 /* SearchPlaca.swift */,
+				D7DDAC12248202C40061FFA1 /* Registros.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7B5EC772480836F00F846A0 /* AutoParking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B5EC8C2480837100F846A0 /* Build configuration list for PBXNativeTarget "AutoParking" */;
+			buildPhases = (
+				0DBB4E78B60A02E6517AF595 /* [CP] Check Pods Manifest.lock */,
+				D7B5EC742480836F00F846A0 /* Sources */,
+				D7B5EC752480836F00F846A0 /* Frameworks */,
+				D7B5EC762480836F00F846A0 /* Resources */,
+				2B9D1B7C78E200933E631563 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoParking;
+			productName = AutoParking;
+			productReference = D7B5EC782480836F00F846A0 /* AutoParking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7B5EC702480836F00F846A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Heber Echeverria";
+				TargetAttributes = {
+					D7B5EC772480836F00F846A0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D7B5EC732480836F00F846A0 /* Build configuration list for PBXProject "AutoParking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7B5EC6F2480836F00F846A0;
+			productRefGroup = D7B5EC792480836F00F846A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7B5EC772480836F00F846A0 /* AutoParking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7B5EC762480836F00F846A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B5EC882480837100F846A0 /* LaunchScreen.storyboard in Resources */,
+				D7B5EC852480837100F846A0 /* Assets.xcassets in Resources */,
+				D7B5EC832480836F00F846A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DBB4E78B60A02E6517AF595 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoParking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B9D1B7C78E200933E631563 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoParking/Pods-AutoParking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoParking/Pods-AutoParking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoParking/Pods-AutoParking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7B5EC742480836F00F846A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B5EC7C2480836F00F846A0 /* AppDelegate.swift in Sources */,
+				D7538D7E2480CEB300C64B9A /* Util.swift in Sources */,
+				D7DDAC13248202C40061FFA1 /* Registros.swift in Sources */,
+				D78861C02480A6620020C567 /* CustomItem.swift in Sources */,
+				D7E191222480C3D900416A77 /* Tipo.swift in Sources */,
+				D7E701BF2481DF6D007963A2 /* Registro.swift in Sources */,
+				D7E701BD2481DEFC007963A2 /* PeriodoFacturacion.swift in Sources */,
+				D78861BA24809C510020C567 /* RoundUIView.swift in Sources */,
+				D7538D842480EC6500C64B9A /* RegistrarPlaca.swift in Sources */,
+				D7538D822480E2A600C64B9A /* Placa.swift in Sources */,
+				D7E1911E2480C18B00416A77 /* TipoVehiculo.swift in Sources */,
+				D7E191202480C2A000416A77 /* CustomCell.swift in Sources */,
+				D78EA7652482D58C00197B08 /* Informes.swift in Sources */,
+				D78EA7672483024100197B08 /* Ticket.swift in Sources */,
+				D78861BC2480A5780020C567 /* ControlRegistro.swift in Sources */,
+				D7538D7C2480C63500C64B9A /* DBHelper.swift in Sources */,
+				D7E701BB2481761A007963A2 /* SearchPlaca.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7B5EC812480836F00F846A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7B5EC822480836F00F846A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7B5EC862480837100F846A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7B5EC872480837100F846A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7B5EC8A2480837100F846A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7B5EC8B2480837100F846A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7B5EC8D2480837100F846A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F1BD9044E0E8D2FED8B34A /* Pods-AutoParking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AutoParking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.AutoParking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D7B5EC8E2480837100F846A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 980426E7A93EE35C98DC5D5B /* Pods-AutoParking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AutoParking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.AutoParking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7B5EC732480836F00F846A0 /* Build configuration list for PBXProject "AutoParking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B5EC8A2480837100F846A0 /* Debug */,
+				D7B5EC8B2480837100F846A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B5EC8C2480837100F846A0 /* Build configuration list for PBXNativeTarget "AutoParking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B5EC8D2480837100F846A0 /* Debug */,
+				D7B5EC8E2480837100F846A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7B5EC702480836F00F846A0 /* Project object */;
+}

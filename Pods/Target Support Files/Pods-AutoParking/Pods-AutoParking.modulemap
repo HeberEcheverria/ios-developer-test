@@ -1,0 +1,6 @@
+framework module Pods_AutoParking {
+  umbrella header "Pods-AutoParking-umbrella.h"
+
+  export *
+  module * { export * }
+}
