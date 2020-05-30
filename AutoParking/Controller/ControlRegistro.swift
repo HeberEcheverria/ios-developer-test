@@ -41,6 +41,7 @@ class ControlRegistro: UIViewController, UICollectionViewDelegate, UICollectionV
         collectionView.reloadData()
     }
     @objc func textFieldDidChange(_ textField: UITextField) {
+        
         print(textField.text)
         dataArray = db.getSearchPlaca(search: textField.text!)
         print(dataArray.count)
@@ -82,6 +83,13 @@ class ControlRegistro: UIViewController, UICollectionViewDelegate, UICollectionV
 
         vc?.placa   = txtPlaca.text!
         self.navigationController?.show(vc!, sender: nil)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        self.txtPlaca.endEditing(true)
+        
+        return true
     }
     
     /*
